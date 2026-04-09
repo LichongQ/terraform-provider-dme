@@ -4,7 +4,7 @@
 - 已安装go语言环境
 - 已安装Terraform
 
-## 二. provider对接方法
+## 二. windows环境下provider对接方法
 
 ### step1: 下载代码，编译：go build，生成terraform-provider-dme.exe
 ### step2: 创建目录：C:\DMEProvider，并将terraform-provider-dme.exe拷贝到该目录
