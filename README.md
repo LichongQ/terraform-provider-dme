@@ -19,7 +19,8 @@
 ### step2: 创建目录：C:\DMEProvider，并将terraform-provider-dme.exe拷贝到该目录
 ### step3：打开文件资源管理器，在地址栏输入“%APPDATA%”并按回车，进入该目录。
 然后在该目录新建一个名为“terraform.rc”的文件，并将以下内容粘贴进去
-``` provider_installation {
+```
+provider_installation {
 dev_overrides {
 "registry.terraform.io/hashicorp/local-storage" = "C:/DMEProvider"
 "registry.terraform.io/ict/dme" = "C:/DMEProvider"
