@@ -121,7 +121,7 @@ type VDisk struct {
 	IsIndepDisk        bool    `json:"is_indep_disk,omitempty"`
 	IsPersistentDisk   bool    `json:"is_persistent_disk,omitempty"`
 	IOmode             string  `json:"io_mode,omitempty"`
-	SequenceNum        string  `json:"sequence_num,omitempty"`
+	SequenceNum        int  `json:"sequence_num,omitempty"`
 }
 
 // OsOptions represents OS configuration for a VM.
