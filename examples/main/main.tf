@@ -35,8 +35,8 @@ resource "dme_vm" "example" {
   memory_mb = 8192
 
   # OS configuration
-  os_type       = "Linux"
-  os_version    = "1719"
+  os_type       = data.dme_vm.template.os_type
+  os_version    = data.dme_vm.template.os_version
 }
 
 # Output the created VM details.
